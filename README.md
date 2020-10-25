@@ -2,10 +2,11 @@
 
 This is the code for the paper
 
-**[Violence detection using deep learning]**
+Violence detection using deep learning
+
 <br>
-[Fernando José Rendón Segador],
-[Juan Antonio Álvarez-García],
-[Fernando Enriquez],
-[Oscar Deniz],
+Fernando José Rendón Segador
+Juan Antonio Álvarez-García
+Fernando Enriquez
+Oscar Deniz
 <br>
