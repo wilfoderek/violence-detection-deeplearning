@@ -2,5 +2,10 @@
 
 This is the code for the paper
 
-Violence Detection Using Deep Learning Techniques
-Álvaro Arcos-García, Juan Antonio Álvarez-García, Luis M. Soria-Morillo
+**[Violence detection using deep learning]**
+<br>
+[Fernando José Rendón Segador],
+[Juan Antonio Álvarez-García],
+[Fernando Enriquez],
+[Oscar Deniz],
+<br>
