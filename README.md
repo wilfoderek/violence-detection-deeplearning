@@ -1,5 +1,4 @@
 # violence-deteccion-deeplearning
-Violence Detection Using Deep Learning Techniques
 
 This is the code for the paper
 
