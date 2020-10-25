@@ -4,9 +4,9 @@ This is the code for the paper
 
 Violence detection using deep learning
 
-<br>
-Fernando José Rendón Segador
-Juan Antonio Álvarez-García
-Fernando Enriquez
+
+Fenando José Rendón Segador<br/>
+Juan Antonio Álvarez-García<br/>
+Fernando Enriquez<br/>
 Oscar Deniz
-<br>
+
