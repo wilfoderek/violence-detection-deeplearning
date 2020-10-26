@@ -1,4 +1,4 @@
-# violence-deteccion-deeplearning
+# Violence Detection Deep Learning
 
 This is the code for the paper
 
@@ -9,4 +9,6 @@ Fenando José Rendón Segador<br/>
 Juan Antonio Álvarez-García<br/>
 Fernando Enriquez<br/>
 Oscar Deniz
+
+
 
