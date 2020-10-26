@@ -9,6 +9,8 @@ The article addresses the problem of detecting violent actions in videos, analyz
 
 ## Requirements
 
+This project is implemented in Python using the Tensorflow and Keras libraries to develop the model.
+
 ## Results
 
 ## Training
