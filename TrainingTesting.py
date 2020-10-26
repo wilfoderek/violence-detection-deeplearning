@@ -3,6 +3,7 @@ import matplotlib.pyplot as plt
 import sklearn
 import random
 import time
+import tensorflow as tf
 
 from sklearn.model_selection import ShuffleSplit
 from Classifier import *
