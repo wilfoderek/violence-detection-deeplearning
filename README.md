@@ -17,8 +17,6 @@ The following bar graph shows a comparison of our model with other neural models
 
 ![Test Accuracy Dataset](TestAccuracyDataset.png?raw=True "Test Accuracy Dataset")
 
-## Training
-
 ## Evaluation
 
 We provide a [Jupyter Notebook](ViolenceActionDetection.ipynb) with instructions to training and testing our model also we provide links to download the datasets.
