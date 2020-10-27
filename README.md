@@ -19,4 +19,6 @@ This project is implemented in Python using the Tensorflow and Keras libraries t
 
 ## Evaluation
 
+We provide a Jupyter Notebook with instructions to training and testing our model also we provide links to download the datasets.
+
 ## Acknowledgements
