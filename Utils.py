@@ -46,7 +46,6 @@ def extract_videos3D_optical_flow(video_input_file_path, height, width):
             hsv[..., 0] = ang * 180 / np.pi / 2
             hsv[..., 2] = cv2.normalize(mag, None, 0, 255, cv2.NORM_MINMAX)
             bgr = cv2.cvtColor(hsv, cv2.COLOR_HSV2BGR)
-            # bgr = cv2.cvtColor(bgr, cv2.COLOR_BGR2GRAY)
             video_frames_optical_flow.append(bgr)
         else:
             break
