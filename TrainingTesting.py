@@ -53,7 +53,7 @@ for split in range(cross_validation):
     classifier.width = 224
     classifier.height = 224
     classifier.time = 50
-    classifier.batch_size_train = 3
+    classifier.batch_size_train = 12
     classifier.batch_size_test = 1
     classifier.labels = [0, 1]
     classifier.pathTrain = data_set + 'Data'
