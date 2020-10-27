@@ -1,4 +1,4 @@
-# Violence Detection Deep Learning
+# Violence Detection using Deep Learning
 
 This is the code for the paper
 
@@ -19,4 +19,4 @@ The following bar graph shows a comparison of our model with other neural models
 
 ## Evaluation
 
-We provide a [Jupyter Notebook](ViolenceActionDetection.ipynb) with instructions to training and testing our model also we provide links to download the datasets.
+We provide a [Jupyter Notebook](ViolenceActionDetection.ipynb) with instructions to train and test our model.
