@@ -13,6 +13,8 @@ This project is implemented in Python using the Tensorflow and Keras libraries t
 
 ## Results
 
+The following bar graph shows a comparison of our model with other neural models. In it you can see how our model reaches the state of the art, positioning itself as one of the best models in terms of test accuracy.
+
 ![Test Accuracy Dataset](TestAccuracyDataset.png?raw=True "Test Accuracy Dataset")
 
 ## Training
