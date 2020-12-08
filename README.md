@@ -35,7 +35,7 @@ Open the jupyter notebook [Jupyter Notebook](ViolenceActionDetection.ipynb)
 
 3. Third step
 
-Execute the first cell of the jupyter lock.
+Execute the first cell of the jupyter notebook.
 
 4. Step four
 
