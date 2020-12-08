@@ -21,7 +21,7 @@ The following bar graph shows a comparison of our model with other neural models
 
 We provide a [Jupyter Notebook](ViolenceActionDetection.ipynb) with instructions to train and test our model.
 
-In order to run the application it is necessary to download the datasets. And to download the data set it is necessary to upload the kaggle.json file found in this repository.
+In order to run the application it is necessary to download the datasets. And to download the datasets it is necessary to upload the kaggle.json file found in this repository.
 
 The following steps must be followed:
 
