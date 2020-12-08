@@ -31,7 +31,7 @@ Download the kaggle.json file to a local environment
 
 2. Second step
 
-Open the jupyter notebook in Colab named [Jupyter Notebook](ViolenceActionDetection.ipynb)
+Open the jupyter notebook [Jupyter Notebook](ViolenceActionDetection.ipynb)
 
 3. Third step
 
