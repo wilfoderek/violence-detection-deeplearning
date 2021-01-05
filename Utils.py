@@ -57,3 +57,24 @@ def extract_videos3D_optical_flow(video_input_file_path, height, width):
     cv2.destroyAllWindows()
     return video_frames_optical_flow
 
+def extract_videos3D_frames_substraction(video_input_file_path, height, width):
+    video_frames = list()
+    cap = cv2.VideoCapture(video_input_file_path)
+    ret1, frame1 = cap.read()
+    frame1 = cv2.resize(frame1, (width, height))
+
+    while cap.isOpened():
+
+        ret2, frame2 = cap.read()
+        if ret2:
+            frame2 = cv2.resize(frame2, (width, height))
+            frame = frame1 - frame2
+            video_frames.append(frame)
+        else:
+            break
+
+        frame1 = frame2
+
+    cap.release()
+    cv2.destroyAllWindows()
+    return video_frames
