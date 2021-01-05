@@ -107,8 +107,6 @@ for split in range(cross_validation):
 
     classifier.predictions = np.argmax(classifier.predictions, axis=1)
     cmatrix = sklearn.metrics.confusion_matrix(classifier.fts_labels, classifier.predictions, labels=classifier.labels)
-    plot_confusion_matrix(cmatrix, classifier.labels, normalize=True, title='Confusion matrix',
-                        save_path=data_set + 'Results/cm' + str(k) + '.png')
     test_accuracy = sklearn.metrics.accuracy_score(classifier.fts_labels, classifier.predictions, normalize=True)
     print(test_accuracy)
     k += 1
