@@ -11,11 +11,11 @@ The article addresses the problem of detecting violent actions in videos, analyz
 
 This project is implemented in Python using the [Tensorflow](https://www.tensorflow.org/) and [Keras](https://keras.io/) libraries to develop the model.
 
-## Results
+## Model Architecture
 
-The following bar graph shows a comparison of our model with other neural models. In it you can see how our model reaches the state of the art, positioning itself as one of the best models in terms of test accuracy.
+The following graph shows the architecture of our model.
 
-![Test Accuracy Dataset](figures/TestAccuracyDataset.png?raw=True "Test Accuracy Dataset")
+![Test Accuracy Dataset](figures/ModelArchitecturet.png?raw=True "Model Architecture")
 
 ## Evaluation
 
