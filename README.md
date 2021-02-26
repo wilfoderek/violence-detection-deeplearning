@@ -15,7 +15,7 @@ This project is implemented in Python using the [Tensorflow](https://www.tensorf
 
 The following graph shows the architecture of our model.
 
-![Test Accuracy Dataset](figures/ModelArchitecturet.png?raw=True "Model Architecture")
+![Model Architecture](figures/ModelArchitecture.png?raw=True "Model Architecture")
 
 ## Evaluation
 
