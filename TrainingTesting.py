@@ -63,7 +63,7 @@ for split in range(cross_validation):
     classifier.ftr_labels = yTrain
     classifier.fts_labels = yTest
 
-    model = classifier.modelHAR3DDenseOp((classifier.time, classifier.height, classifier.width, classifier.channels))
+    model = classifier.model_dense((classifier.time, classifier.height, classifier.width, classifier.channels))
     model.compile(optimizer='adam', loss='binary_crossentropy', metrics=['accuracy'])
     model.summary()
     print(tf.config.list_physical_devices('GPU'))
@@ -73,8 +73,8 @@ for split in range(cross_validation):
                                 verbose=2,
                                 steps_per_epoch=int(len(classifier.ftr) / classifier.batch_size_train))
 
-    model.save_weights(data_set + 'Results/modelHMDweights' + str(k) + '.h5')
-    model.save(data_set + 'Results/modelHMD' + str(k) + '.h5')
+    model.save_weights(data_set + 'Results/model_weights' + str(k) + '.h5')
+    model.save(data_set + 'Results/model' + str(k) + '.h5')
 
     print(history.history.keys())
     # summarize history for accuracy
