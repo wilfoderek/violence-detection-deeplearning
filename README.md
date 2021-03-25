@@ -27,20 +27,20 @@ The following steps must be followed:
 
 1. First step
 
-Download the kaggle.json file to a local environment
+  Download the kaggle.json file to a local environment
 
 2. Second step
 
-Open the jupyter notebook [Jupyter Notebook](ViolenceActionDetection.ipynb)
+  Open the jupyter notebook [Jupyter Notebook](ViolenceActionDetection.ipynb)
 
 3. Third step
 
-Execute the first cell of the jupyter notebook.
+  Execute the first cell of the jupyter notebook.
 
 4. Step four
 
-After executing the first cell, it will ask you to load the kaggle.json file. Do it.
+  After executing the first cell, it will ask you to load the kaggle.json file. Do it.
 
 5. Fifth step
 
-After the datasets is downloaded, run the other parts of the code.
+  After the datasets is downloaded, run the other parts of the code.
