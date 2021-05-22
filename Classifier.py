@@ -550,7 +550,9 @@ class ClassifierHAR3D(object):
             net59)
 
         net59 = tf.keras.layers.Flatten()(net59)
-
+        
+        net59 = tf.keras.layers.Dense(1024)(net59)
+        net59 = tf.keras.layers.Dropout(0.25)(net59)
         net59 = tf.keras.layers.Dense(128)(net59)
         net59 = tf.keras.layers.Dropout(0.25)(net59)
         net59 = tf.keras.layers.Dense(16)(net59)
