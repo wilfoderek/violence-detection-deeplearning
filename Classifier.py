@@ -543,7 +543,7 @@ class ClassifierHAR3D(object):
 
         net59 = tf.keras.layers.AveragePooling3D(pool_size=(1, 3, 3))(net59)
 
-        net59 = tf.keras.layers.MultiHeadAttention(num_heads=6, key_dim=(32/6), attention_axes=4)(net59, net59, net59, None)
+        net59 = tf.keras.layers.MultiHeadAttention(num_heads=6, key_dim=32, attention_axes=4)(net59, net59, net59, None)
 
         net59 = tf.keras.layers.Bidirectional(
             tf.keras.layers.ConvLSTM2D(filters=128, kernel_size=(1, 1), activation='relu', return_sequences=True))(
