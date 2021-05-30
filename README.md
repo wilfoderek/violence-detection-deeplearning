@@ -17,6 +17,8 @@ The following graph shows the architecture of our model.
 
 ![Model Architecture](figures/ModelArchitecture.png?raw=True "Model Architecture")
 
+In sectionAthe architecture of the ViolenceNet model, that takes the optical flow asinput, is shown. It is composed of four parts: a DenseNet-121 network spatio-temporal encoder, amulti-head self-attention layer, a bidirectional convolution 2D LSTM (BiConvLSTM2D) layerand a classifier. Below each Dense Block its number of components is indicated. The variablehcorresponds to the number of heads used in parallel by the multi-head self-attention layer and thevariablesQ,K,Vtheir inputs. SectionBshows the internal architecture of a 5-component DenseBlock (x5).
+
 ## Evaluation
 
 We provide a [Jupyter Notebook](ViolenceActionDetection.ipynb) with instructions to train and test our model.
