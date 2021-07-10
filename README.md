@@ -13,6 +13,7 @@ The paper addresses the problem of detecting violent actions in videos, analyzin
 This project is implemented in Python using the [Tensorflow](https://www.tensorflow.org/) and [Keras](https://keras.io/) libraries to develop the model.
 
 - Tensorflow v2.5.0
+- Keras v2.2.4
 - Sci-Kit Learn
 
 ## Model Architecture
