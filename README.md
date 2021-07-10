@@ -1,4 +1,5 @@
-# Violence Detection using Deep Learning
+# Violence Detection using Dense Multi Head Self-Attention with Bidirectional Convolutional LSTM
+
 
 This is the code for the paper
 
