@@ -26,7 +26,7 @@ In section A the architecture of the ViolenceNet model, that takes the optical f
 
 ## Results
 
-# Ablation Study
+### Ablation Study
 
 | Dataset |         Input        | Test Accuracy (with Attention) | Test Accuracy (without Att.) | Test Inference Time (with Attention) | Test Inference Time (without Att.) |
 |---------|----------------------|--------------------------------|------------------------------|--------------------------------------|------------------------------------|
