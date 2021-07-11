@@ -39,6 +39,20 @@ In section A the architecture of the ViolenceNet model, that takes the optical f
 |  RLVS	  | Optical Flow         |         95.60 ± 0.6%	          |         93.40 ± 1.0%         |   0.2767 ± 0.020 s                   |    0.3019 ± 0.0059 s               |
 |  RLVS	  | Pseudo-Optical Flow  |         94.10 ± 0.8%	          |         92.20 ± 0.8%         |   0.2767 ± 0.020 s                   |    0.3019 ± 0.0059 s               |
 
+### Performance Comparison For One Iteration
+
+| Dataset |         Input        | Training Accuracy | Training Loss | Test Accuracy Violence | Test Accuracy Non-Violence | Test Accuracy |
+|---------|----------------------|-------------------|---------------|------------------------|----------------------------|---------------|
+|  HF	  | Optical Flow         |  100%             |  1.20×10−5    |  99.00%                |  100.00%                   |  99.50%       |
+|  HF	  | Pseudo-Optical Flow  |  99%              |  1.35×10−5    |  97.00%                |  98.00%                    |  97.50%       |
+|  MF	  | Optical Flow         |  100%             |  1.18×10−5    |  100%                  |  100%                      |  100%         |
+|  MF	  | Pseudo-Optical Flow  |  100%             |  1.19×10−5    |  100%                  |  100%                      |  100%         |
+|  VF	  | Optical Flow         |  98%              |  1.50×10−4    |  97.00%                |  96.00%                    |  96.50%       |
+|  VF	  | Pseudo-Optical Flow  |  97%              |  2.94×10−4    |  95.00%                |  94.00%                    |  94.50%       |
+|  RLVS	  | Optical Flow         |  97%              |  3.10×10−4    |  96.00%                |  95.00%                    |  95.50%       |
+|  RLVS	  | Pseudo-Optical Flow  |  95%              |  7.31×10−4    |  94.00%                |  93.00%                    |  93.50%       |
+
+
 ## Evaluation
 
 We provide a [Jupyter Notebook](ViolenceActionDetection.ipynb) with instructions to train and test our model.
