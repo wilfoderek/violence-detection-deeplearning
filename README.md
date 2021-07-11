@@ -15,6 +15,7 @@ This project is implemented in Python using the [Tensorflow](https://www.tensorf
 - Tensorflow v2.5.0
 - Keras v2.2.4
 - Sci-Kit Learn
+- OpenCV v4.5.3.56
 
 ## Model Architecture
 
