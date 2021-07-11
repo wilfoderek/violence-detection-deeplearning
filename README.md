@@ -27,7 +27,7 @@ In section A the architecture of the ViolenceNet model, that takes the optical f
 
 ## Results
 
-### Ablation Study
+### Ablation Study With Attention Mechanism, 5-Fold Cross-Validation
 
 | Dataset |         Input        | Test Accuracy (with Attention) | Test Accuracy (without Att.) | Test Inference Time (with Attention) | Test Inference Time (without Att.) |
 |---------|----------------------|--------------------------------|------------------------------|--------------------------------------|------------------------------------|
@@ -53,7 +53,7 @@ In section A the architecture of the ViolenceNet model, that takes the optical f
 |  RLVS	  | Optical Flow         |  97%              |  3.10×10−4    |  96.00%                |  95.00%                    |  95.50%       |
 |  RLVS	  | Pseudo-Optical Flow  |  95%              |  7.31×10−4    |  94.00%                |  93.00%                    |  93.50%       |
 
-### Cross-Dataset Experiment
+### Cross-Dataset Experiment, 5-Fold Cross-Validation
 
 | Dataset Training | Dataset Testing | Test Accuracy Optical Flow | Test Accuracy Pseudo-Optical Flow |
 |------------------|-----------------|----------------------------|-----------------------------------|
