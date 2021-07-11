@@ -26,6 +26,19 @@ In section A the architecture of the ViolenceNet model, that takes the optical f
 
 ## Results
 
+# Ablation Study
+
+| Dataset |         Input        | Test Accuracy (with Attention) | Test Accuracy (without Att.) | Test Inference Time (with Attention) | Test Inference Time (without Att.) |
+|---------|----------------------|--------------------------------|------------------------------|--------------------------------------|------------------------------------|
+|   HF	  | Optical Flow         |         99.20 ± 0.6%	          |         99.00 ± 1.0%         |   0.1397 ± 0.0024 s                  |    0.1626 ± 0.0034 s               |
+|   HF	  | Pseudo-Optical Flow  |         97.50 ± 1.0%	          |         97.20 ± 1.0%         |   0.1397 ± 0.0024 s                  |    0.1626 ± 0.0034 s               |
+|   MF	  | Optical Flow         |         100.00 ± 0.0%	      |         100.00 ± 0.0%        |   0.1916 ± 0.0093 s                  |    0.2019 ± 0.0045 s               |
+|   MF	  | Pseudo-Optical Flow  |         100.00 ± 0.0%	      |         100.00 ± 0.0%        |   0.1916 ± 0.0093 s                  |    0.2019 ± 0.0045 s               |
+|   VF	  | Optical Flow         |         96.90 ± 0.5%	          |         94.00 ± 1.0%         |   0.2991 ± 0.0030 s                  |    0.3114 ± 0.0073 s               |
+|   VF	  | Pseudo-Optical Flow  |         94.80 ± 0.5%	          |         92.50 ± 0.5%         |   0.2991 ± 0.0030 s                  |    0.3114 ± 0.0073 s               |
+|  RLVS	  | Optical Flow         |         95.60 ± 0.6%	          |         93.40 ± 1.0%         |   0.2767 ± 0.020 s                   |    0.3019 ± 0.0059 s               |
+|  RLVS	  | Pseudo-Optical Flow  |         94.10 ± 0.8%	          |         92.20 ± 0.8%         |   0.2767 ± 0.020 s                   |    0.3019 ± 0.0059 s               |
+
 ## Evaluation
 
 We provide a [Jupyter Notebook](ViolenceActionDetection.ipynb) with instructions to train and test our model.
