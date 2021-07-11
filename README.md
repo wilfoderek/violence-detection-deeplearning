@@ -103,6 +103,22 @@ The following steps must be followed:
 
     After the datasets is downloaded, run the other parts of the code.
 
+## Citation
+
+This section gives the information to cite the paper: ViolenceNet: Dense Multi-Head Self-Attention with Bidirectional Convolutional LSTM for Detecting Violence (2021), doi: https://doi.org/10.3390/electronics10131601.
+
+```bash
+@article{rendon2021violencenet,
+  title={ViolenceNet: Dense Multi-Head Self-Attention with Bidirectional Convolutional LSTM for Detecting Violence},
+  author={Rend{\'o}n-Segador, Fernando J and {\'A}lvarez-Garc{\'\i}a, Juan A and Enr{\'\i}quez, Fernando and Deniz, Oscar},
+  journal={Electronics},
+  volume={10},
+  number={13},
+  pages={1601},
+  year={2021},
+  publisher={Multidisciplinary Digital Publishing Institute}
+}
+```
 
 ## Acknowledgements
 This research is partially supported by The Spanish Ministry of Economy and Competitiveness through the project VICTORY (grant no.: TIN2017-82113-C2-1-R).
