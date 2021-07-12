@@ -17,6 +17,18 @@ This project is implemented in Python using the [Tensorflow](https://www.tensorf
 - Sci-Kit Learn
 - OpenCV v4.5.3.56
 
+### Install the repository:
+
+```
+git clone https://github.com/FernandoJRS/violence-detection-deeplearning
+```
+
+### Install the requirements:
+
+```
+pip install -r requirements.txt
+```
+
 ## Model Architecture
 
 The following graph shows the architecture of our model.
