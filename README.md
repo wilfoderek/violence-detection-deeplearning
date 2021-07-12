@@ -49,6 +49,9 @@ In section A the architecture of the ViolenceNet model, that takes the optical f
 
 ## Results
 
+This section show the results obtained from the different experiments carried out with the datasets. (HF - Hockey Fights), (MF - Movies Figths), (VF - Violent Flows) and (RLVS - Real Life Violence Situations).
+
+
 ### Ablation Study With Attention Mechanism, 5-Fold Cross-Validation
 
 | Dataset |         Input        | Test Accuracy (with Attention) | Test Accuracy (without Att.) | Test Inference Time (with Attention) | Test Inference Time (without Att.) |
