@@ -12,10 +12,16 @@ The paper addresses the problem of detecting violent actions in videos, analyzin
 
 This project is implemented in Python using the [Tensorflow](https://www.tensorflow.org/) and [Keras](https://keras.io/) libraries to develop the model.
 
+- OpenCV v4.4.0.46
+- Ipython v7.16.1
+- Keras v2.4.3
+- Scikit-Image v0.17.2
+- Scikit-Learn v0.24.2
 - Tensorflow v2.5.0
-- Keras v2.2.4
-- Sci-Kit Learn
-- OpenCV v4.5.3.56
+- Livelossplot v0.5.3
+- Matplotlib v3.3.2
+- Numpy v1.19.2
+
 
 ### Install the repository:
 
