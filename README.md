@@ -114,7 +114,7 @@ The following steps must be followed:
 
 2. Second step
 
-    Open the jupyter notebook [Jupyter Notebook](ViolenceActionDetection.ipynb)
+    Open the [Jupyter Notebook](ViolenceActionDetection.ipynb)
 
 3. Third step
 
